@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url(./Images/Purple\ Night\ GIFs\ and\ Photos4.gif) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-container {
+  background: rgba(180, 180, 255, 0.5);
+  height: 450px;
+  width: 450px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+  gap: 40px;
+}
+
+.email-icon,
+.password-icon {
+  width: 20px;
+  background: none;
+}
+
+h2 {
+  color: #fff;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  line-height: 160%;
+}
+
+.email-wrap,
+.password {
+  position: relative;
+  /* justify-content: center; */
+  padding-bottom: 5px;
+  border-bottom: 1px solid whitesmoke;
+  width: 350px;
+}
+
+.email-wrap input,
+.password input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+}
+
+.email-wrap img,
+.password img {
+  background: transparent;
+  position: absolute;
+  right: 2px;
+  bottom: 20%;
+}
+
+.checkbox,
+.register {
+  font-size: 15px;
+  display: inline-flex;
+  font-weight: bold;
+  line-height: 14px;
+}
+
+.checkbox .txt1,
+.register .txt2 {
+  color: whitesmoke;
+}
+
+.checkbox .forgot_pw,
+.registerNow {
+  color: yellow;
+  padding-left: 8px;
+}
+
+.login {
+  width: 350px;
+  background-color: #fff;
+  height: 36px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 2px 3px grey;
+  font-size: 16px;
+  color: rgb(9, 9, 100);
+}
+
+.checkbox .forgot_pw,
+.login,
+.registerNow :hover {
+  cursor: pointer;
+}
+
+.register {
+  padding-top: 15px;
+}
